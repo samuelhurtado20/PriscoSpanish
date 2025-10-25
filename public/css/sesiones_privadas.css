@@ -1,0 +1,77 @@
+.contCalend {
+  display: inline-block;
+/*background: red;*/
+  margin: 100px;
+  margin-rigth: 10px;
+  width: auto;
+}
+.table {
+/*background: #eee;*/
+  display: inline-table;
+  text-align: center;
+}
+.fila {
+  display: table-row;
+}
+.col {
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  display: table-cell;
+  cursor: pointer;
+  font-family: 'consolas', arial;
+  font-size: 15px;
+  padding: 20px;
+}
+.detalle .col:hover {
+  background: #eee;
+}
+.header {
+/*background: #333;*/
+  width: 100%;
+}
+.header div {
+/*background: blue;*/
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'consolas', arial;
+  margin-left: -4px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+.header .botones {
+  width: 50px;
+}
+.header .botones a {
+  color: #333;
+  text-decoration: none;
+}
+.header .botones:first-child {
+  margin-left: 0;
+}
+.header .mes {
+  width: calc(100% - 100px);
+}
+.dias {
+  background: #eee;
+}
+.fila:first-child > .col {
+  border-bottom: 1px solid #eee;
+}
+.fila .col:last-child {
+  border-right: 1px solid #eee;
+}
+.dias .col:first-child {
+  border-radius: 3px 0 0 0;
+}
+.dias .col:last-child {
+  border-radius: 0 3px 0 0;
+}
+.detalle:last-child .col:first-child {
+  border-radius: 0 0 0 3px;
+}
+.detalle:last-child .col:last-child {
+  border-radius: 0 0 3px 0;
+}

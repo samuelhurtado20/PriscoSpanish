@@ -1,0 +1,3 @@
+function iniciarQuery(){
+     // FUNCION PRINCIPAL DEL PANEL DEL ADMINISTRADOR
+}
