@@ -12,8 +12,8 @@ return [
     */
     
     // credenciales de paypal
-    'client_id' => 'AUk2rNym3mJhLZN0Qufj36dWE1nBeC4NLbysazzvFNONsUJG31dhKJVZBlQKcm5vNTJA5nTQQKoG-UDO',
-    'secret' => 'EPRfvRedeHe0_sYbiW9IgBQAPngcAxj9Nr_ybFMYmwQbgOrdVdnQmtI9Gwi8c4j-6wSnpzPsRGn4j3nx',
+    'client_id' => '',
+    'secret' => '',
 
     /**
      * SDK configuration 
